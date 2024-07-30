@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DebitCard\ here.\r\nThis\ is\ a\ class\ called\ "DebitCard"\ in\ Java\ that\ extends\ the\ "BankCard"\ class.\r\nThe\ class\ has\ a\ constructor\ that\ initializes\ these\ instance\ variables\ and\ sets\ the\ client\ information\ and\ balance\ amount\ by\ calling\ the\ parent\ class'\ constructor\ "BankCard".\ \r\nThe\ class\ also\ has\ getter\ and\ setter\ methods\ for\ each\ instance\ variable.\r\n\ @author\ (Sonam\ dhendup\ Gurung)\r\n\ @version\ (2022)\r\n
+comment1.params=Balance\ Card\ Bank\ Issuer\ client\ Pin_number
+comment1.target=DebitCard(int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getPIN_number()
+comment2.text=getters\ method----instance\ variable\ PIN_number
+comment3.params=
+comment3.target=int\ getWithdrawal_amount()
+comment3.text=getters\ method----instance\ variable\ Withdrawal_amount
+comment4.params=
+comment4.target=java.lang.String\ getDate_Of_Withdrawal()
+comment4.text=getters\ method----instance\ variable\ Date_Of_Withdrawal
+comment5.params=
+comment5.target=boolean\ gethas_Withdrawn()
+comment5.text=getters\ method----instance\ variable\ gethas_Withdrawn
+comment6.params=WITHDRAWAL_ACCOUNT
+comment6.target=void\ setWithdrawal_amount(int)
+comment6.text=setters\ method----instance\ variable\ Withdrawal_amount
+comment7.params=withdrawal_amount\ date_Of_Withdrawal\ pin_number
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=The\ "withdraw"\ method\ allows\ for\ a\ withdrawal\ from\ the\ account\ if\ the\ correct\ PIN\ number\ is\ entered\ and\ the\ withdrawal\ amount\ does\ not\ exceed\ the\ balance.
+comment8.params=
+comment8.target=void\ display()
+numComments=9
